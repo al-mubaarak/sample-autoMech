@@ -1,0 +1,574 @@
+/*large laptops and desktops*/
+@media only screen and (max-width: 1199px){
+    
+    .header{
+        border-bottom-right-radius: 20%;
+    }
+ 
+    .mechanic{
+        float: right;
+        height: 17em;
+        width: 23em;
+        margin: 6em 0 0 -3em;
+    }
+    
+    .our-experience{
+        min-width: 30em;
+        margin:.5em 0 0 10em;
+    }
+    
+    .landing-text{
+        margin:1.5em 0 0 4em;
+    }
+    
+    .quote{
+        margin:2em 0 0 9.6em;
+    }
+    
+    .vlc{
+        float: right;
+        height: 7em;
+        margin-top: 18em;
+    }   
+/*    end of header*/
+    
+    .choose-us{
+        min-height: 20em;
+        min-width: 80vw;
+        position: relative;
+        align-items: center;
+    }
+    
+    .icons{
+        margin-left:1em;
+        font-size: 2.5em;
+        height: 5.4em;
+    }
+    
+    .fa-certificate{
+        margin-top: .7em;
+    }
+    
+    .fa-check-square{
+        margin-top: .8em;
+    }
+    
+/*    first column starts*/
+    .first-column{
+        position: relative;
+        align-items: center;
+    }
+    
+    .first-pane, .second-pane,
+    .third-pane{
+        width: 80vw;
+    }
+    
+ }
+
+/*normal laptops and desktops*/
+@media only screen and (max-width: 992px){
+    
+    .header{
+        border-bottom-right-radius: 30%;
+    }
+    
+    .mechengr{
+        height: 33em;
+        width: 15em;
+        margin-right: 0;
+    }
+    
+    .mechanic{
+        margin-left: .1em;
+        height: 300px;
+        width: 320px;
+    }
+    
+    .vlc{
+        margin-top: 12em;
+    }
+    
+    .landing-text{
+        margin-top: 3em;
+        font-size: 2em;
+    }
+    
+    .our-experience{
+        margin-left: 8em;
+    }
+    
+    .our-experience br{
+        display: none;
+    }
+    
+    .right{
+        margin-right: 4em;
+        margin-left: 0;
+    }
+    
+    .righty{
+        margin-right: 1em;
+    }
+    
+    .quote{
+        margin-left: 7.8em;
+    }
+    
+    button{
+        padding: 8px 25px;
+    }
+    
+    .why{
+        font-size: 2em;
+        
+    }
+    
+    .to-do{
+        font-size: .9em;
+        margin-left: 3em;
+    }
+    
+    h5{
+        font-size: .7em;
+    }
+    
+    .more-benefit{
+        font-size: .9em;
+    }
+    
+    .wrong{
+        font-size: 1.8em;
+        margin-left: 2em;
+    }
+    
+    .wrong-solution{
+        font-size: 1em;
+        margin-left: 3em;
+    }
+    
+    .garage, .problem-fix,
+    .bye-bye{
+        width: 18em;
+    }
+    
+    .problem-fix{
+        margin-left: 3em;
+    }
+}
+
+/*Mediun devices(landscape teblets)*/
+@media only screen and (max-width: 769px){
+
+    
+    .header{
+        border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 60%;
+    }
+    
+    #menubar{
+        cursor: pointer;
+        width: 35px;
+        height: 30px;
+        margin-top: 25px;
+    }
+    
+    .bar{
+        height: 5px;
+        width: 100%;
+        background: orangered;
+        display: block;
+        border-radius: 5px;
+        transition: .3s ease;
+        margin-right: 2em;
+    }
+    
+    #bar1{
+        transform: translateY(-4px);
+    }
+    
+    #bar3{
+        transform: translateY(4px);
+    }
+    
+    .change .bar{
+        background: orangered;
+        margin-right: -10em;
+    }
+    
+    .change #bar1{
+        transform: translateY(4px) rotateZ(-45deg);
+    }
+    
+    .change #bar3{
+        transform: translateY(-6px) rotateZ(45deg);
+    }
+    
+    .change #bar2{
+        opacity: 0;
+    }
+    
+    .change{
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        transition: .3s ease;
+        display: none;
+        position: absolute;
+        right: -4em;
+        
+    }
+    
+    li:hover a{
+        color: orangered;
+        font-weight: bolder;
+    }
+    
+    .right, .righty{
+        float: right;
+        margin-right: 0;
+        margin-left: 0;
+        border: none;
+        width: 7em;
+    }
+    
+    .right{
+        background: none;
+    }
+    
+    .righty{
+        margin-left: 1em;
+    }
+    
+    .burger-bg{
+        height: 0;
+        width: 0;
+        left: 60vw;
+        background: #3e3e3e;
+        opacity: .8;
+        transition: .3s ease;
+        z-index: 1;
+        border-radius: 50% 0 0 50%;
+    }
+    
+    #nav, .burger-bg{
+        top: 0;
+        left: 65vw;
+        position: absolute;
+    }
+    
+    #nav{
+        left: 90vw;
+    }
+    
+    .change-bg{
+        width: 550px;
+        height: 540px;
+    }
+    
+    #nav{
+        z-index: 2;
+    }
+    
+    .mechanic{
+        height: 10px;
+        width: 10px;
+        visibility: hidden;
+    }
+    
+    .mechengr{
+        margin-top: 9em;
+        height: 35em;
+        width: 20em;
+    }
+    
+    .our-experience{
+        margin-top: 2em;
+    }
+    
+    button{
+        margin-top: 3em;
+    }
+    
+    .vlc{
+        margin: 17em 0 0 -20em;
+    }
+    
+    .landing-text{
+        margin-top: 4em;
+    }
+    
+    .choose-us{
+        width: 90vw;
+        height: 5em;
+    }
+    
+    .function{
+        position: relative;
+        align-items: center;
+        width: 14em;
+    }
+    
+    .to-do{
+        font-size: .8em;
+    }
+    
+    .first-column{
+        width: 90vw;
+    }
+    
+    .second-pane, .third-pane{
+        margin-top: 3em;
+    }
+    
+    .wrong{
+        font-size: 1.5em;
+    }
+    
+    .wrong-solution{
+        font-size: .8em;
+        margin-top: 1em;
+    }    
+    
+    .garage, .bye-bye{
+        margin-left: 1.5em;
+    }
+    
+    .repairs{
+        width: 25em;
+        margin: 2em 0 0 2em;
+        height: 15em;
+    }
+    
+    .repairs-1{
+        width: 25em;
+        margin: 2em 0 0;
+        height: 15em;
+    }
+    
+}
+
+/*small devices(portrait tablet and large phone*/
+@media only screen and (max-width: 600px){
+    
+    #menubar{
+        position: absolute;
+        right: -1em;
+    }
+    
+    .landing-text br{
+        display: none;
+    }
+    
+    .burger-bg{
+        left: 55vw;
+    }
+    
+    .mechengr{
+        height: 33em;
+        width: 18em;
+        position: relative;
+    }
+    
+    .vlc{
+        margin: 13em 0 0 -6em;
+        height: 6em;
+    }
+    
+    button{
+        padding: 8px 12px;
+        font-size: .8em;
+    }
+    
+    ul{
+        margin-top: 6em;
+        margin-right: -1.5em;
+    }
+    
+    .needs{
+        width: 50%;
+    }
+    
+    .why{
+        width: 8em;
+        font-size: 1.5em;
+    }
+    
+    .to-do{
+        width: 20em;
+        font-size: .7em;
+        text-align: center;
+    }
+    
+    .burger-bg{
+        margin-top: -1em;
+    }
+    
+    .to-do br{
+        display: none;
+    }
+    
+    .icons{
+        margin-left:.3em;
+        font-size: 2em;
+        height: 8em;
+    }
+    
+    .planner{
+        margin-top: 1.1em;
+    }
+    
+    .fa-certificate{
+        margin-top: 1em;
+    }
+    
+    .fa-check-square{
+        margin-top: 1em;
+    }
+    
+    .more-benefit{
+        font-size: .7em;
+        margin-left: 3.1em;
+    }
+    
+    h4{
+        font-size:.8em;
+    }
+    
+    h5{
+        font-size: .6em;
+    }
+    
+    .function{
+        margin-top: 5em;
+    }
+    
+    .first-pane, .second-pane,
+    .third-pane{
+        display: flex;
+        flex-direction: column;
+        height: 29em;
+        width: 70vw;
+        box-shadow: 0 4px 4px 0 rgba(0,0,0,0.15);
+    }
+    
+    .third-pane{
+        margin-bottom: 2em;
+    }
+    
+    .repairs-1, .repairs{
+        margin:2em auto;
+        width: 80%;   
+    }
+    
+    .garage, .bye-bye,
+    .problem-fix{
+        margin: auto;
+    }
+    
+    .garage{
+        margin-top: 1em;
+    }
+    
+    .aboutengr{
+        font-size: 1.2em;
+    }
+    
+    
+}
+
+/*extra small devices*/
+@media only screen and (max-width: 500px){
+    
+    .header{
+        border-bottom-right-radius: 20%;
+        border-bottom-left-radius: 50%;
+    }
+    
+    .quote{
+        margin-left: 3.5em;
+    }
+    
+    .mechengr{
+        margin-top: 9em;
+        height: 33em;
+        width: 15.2em;
+    }
+    
+    #menubar{
+        position: relative;
+        right: 1em;
+    }
+    
+    ul{
+        position: absolute;
+        right: -1.5em;
+        margin-top: 3.9em;
+    }
+    
+    .burger-bg{
+        top: -1em;
+        left: 55vw;
+    }
+    
+    .landing-text{
+        margin-left: 1.7em;
+        position: absolute;
+    }
+    
+    .landing-text br{
+        display: block
+    }
+    
+    .our-experience{
+        margin-top: 15em;
+        margin-left: 3.2em;
+    }
+    
+    .our-experience br{
+        display: block;
+    }
+    
+    .vlc{
+        position: absolute;
+        top: 21em;
+    }
+    
+    .needs{
+       width: 50%; 
+    }
+    
+    .to-do{
+        width: 17em;
+        font-size: .7em;
+        text-align: justify-all;
+    }
+    
+    .repairs-1, .repairs{
+        margin:2em auto;
+        width: 80%;
+    }
+    
+    .repairs br, .repairs-1 br{
+        display: none;
+    }
+    
+    .aboutengr{
+        text-align: center;
+    }
+    
+    .circle{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin-top: 3em;
+    }
+    
+    
+}

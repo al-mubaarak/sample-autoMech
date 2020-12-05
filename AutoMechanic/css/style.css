@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background:linear-gradient(to left bottom, #3d2352, #8874a3 );
+    color: white;
+    border-bottom-left-radius: 65%;
+    height: 41em;
+    width: 105vw;
+    border-bottom-right-radius: 25%;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: .3em;
+}
+
+li{
+    float: left;
+    margin:1em 0 0 3em;
+
+}
+
+li a{   /*    i used li>a at first*/
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+li a:checked{
+    color: white;
+}
+
+.right,
+.righty{
+    float: right;
+    margin-right: 8em;
+    border: solid 1.2px red;
+    border-radius: 9px;
+    padding:  5px 32px;
+}
+
+.righty{
+    margin-right: 5mm;
+}
+
+.right{
+    background-color: orangered;
+    margin-left: 0;
+    padding: 5px 50px; 
+}
+
+.mechanic {
+    float: right;
+    height: 20em;
+    width: 29em;
+    margin: 5em 0 0 1em;
+    
+}
+
+.mechengr{
+    float: right;
+    margin:6em 1em 0 0;
+    height: 40em;
+    width: 22em;
+}
+
+h1{
+    margin:2.5em 0 0 5em;
+    font-size: 2.5em;
+    font-family:monospace;
+}
+
+.our-experience{
+     margin:1em 0 0 13em;
+    font-family:monospace;
+}
+
+button>a{
+    text-decoration: none;
+    color: white;
+}
+
+.quote{
+    margin:2em 0 0 12.8em;
+    background-color: orangered;
+    border: orangered;
+}
+
+button{
+    margin-left: 1em;
+    padding: 10px 32px;
+    border-radius: 6px;
+}
+
+.learn{
+    background-color: inherit;
+    border:solid 1px orangered;
+}
+
+.vlc{
+    float: right;
+    height: 7em;
+    margin-top: 13em;
+}
+
+
+/*header ends here...*/
+
+
+.why{
+    margin:0 0 1em 2.8em;
+}
+
+.to-do{
+    margin:.7em 0 0 6em;
+    line-height: 1.5;
+    color: grey;
+    font-weight: bold
+}
+
+.more-benefit{
+    margin: 2em 0 0 6em;
+   
+}
+.more-benefit>a{
+     text-decoration: none;
+    color: orangered;
+}
+
+.icons{
+     margin-left:2em;
+    font-size: 3em;
+    color: #3d2352;
+}
+
+.waiting{
+   height: 5em;
+}
+
+
+.fa-certificate{
+    margin-top: .5em;
+    height: 1em;
+    width: 1em;
+}
+
+.fa-check-square{
+    margin-top: .3em;
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.function{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+   
+}
+h5{
+    color: grey;
+}
+
+
+.first-column{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+    margin-top: 2em;
+
+}
+
+.first-pane,
+.second-pane,
+.third-pane,
+.choose-us{
+    width: 73vw;
+    height: 18.2em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-pane{
+    margin-top: 3em;
+    background: #ffffff;
+
+}
+
+.second-pane, .third-pane{
+    margin-top: 2em;
+}
+
+.choose-us{
+    background: #e4dcf1;
+    box-shadow: 0 5px 5px 0 grey;
+    margin-top: 5em;
+    position: relative;
+    align-items: center;
+    height: 20em;
+}
+
+.garage{
+    height: 18em;
+    width: 20em;
+    background: url(../Images/istockphoto.jpg); background-size: cover;
+    background-position: center;
+    margin-left: 5em;
+}
+
+.wrong{
+    margin:1em 0 0 4em;
+    font-size: 1.9em;
+    font-family:monospace;
+    color: #3d2352; 
+}
+
+.wrong-solution{
+    margin:.8em 0 0 6em;
+    color: grey;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.problem-fix{
+    height: 18em;
+    width: 20em;
+    background: url(../Images/cars1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 7em;
+}
+
+.bye-bye{
+    height: 18em;
+    width: 20em;
+    background: url(../Images/done.png);
+    background-size: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5em;
+}
+
+.about{
+    float: left;
+    height: 5.5em;
+    width: 45em;
+    background: #e4dcf1;
+    font-family: monospace;
+    font-weight: bold;
+    color: #3d2352;
+    margin: 3.5em 0 0 1em;
+    border-radius: 5px;
+}
+
+.aboutengr{
+    margin: .2em 0 0 .5em;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+
+/*first column ends here.......*/
+
+/*second column starts here*/
+
+.second-column{
+    display: flex;
+    flex-direction: row;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: url(../Images/port.jpg) ;
+    background-size: cover;
+    float: left;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+.circle-number{
+    margin-top: 3.5em;
+    height: 100px;
+    width: 150px;
+    margin-right: 7em;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.footer{
+    width: 100vw;
+    height: 35px;
+    background: #3d2352;
+    margin-top: .7em;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 1.1em;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.copyright{
+    margin-top: .5em;
+}
